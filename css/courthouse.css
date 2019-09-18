@@ -1,0 +1,333 @@
+
+    
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color: #ffffff;
+	margin: 0px;
+	background-image:url('../images/bg.png');
+}
+
+img {
+	border: 0px;
+	padding-right:20px;
+	}
+	
+.pev_img {
+	text-align: center;
+	}
+	
+.add {
+	text-align: center;
+	}
+	
+	hr {
+	text-align: center;
+	width: 90%;
+	color: Black;
+	margin: 30px;
+	
+	}
+	
+	#listB {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	color: Red;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bolder;
+}
+	
+	#listB ul li {
+			text-align: left;
+		color: Black;
+		font-size: 18px;
+        list-style: none;	
+	}	
+		
+#listB ul li::before {
+
+  color: Red;  
+  /* color of bullet or square */
+
+  content: "\2022"; 
+  /* Unicode of character to precede the list item */
+
+  font-size: 1.2em; 
+  /* em or %*/
+ 
+  padding: 0.7em; 
+  /* use em*/
+		
+	}
+
+#info {
+	text-align: center;
+	font-size: 17px;
+	padding: 7px;	
+}
+
+p {
+	margin: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 5px;
+	line-height: 20px;
+}
+
+.notice{
+	margin: 15px;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	border: 4px dotted green;
+}
+
+.imp{
+	margin: 20px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	background-color: navy;
+	color: white;
+}
+
+h1 {
+	/*margin: 20px 10px 20px;*/
+	padding: 15px;
+	font-size: 25px;
+	text-align: center;
+}
+
+h2{
+	margin: 0px;
+	/*margin-left: 40px;*/
+	color: Red;
+	font-size: 18px;
+	padding: 15px;
+	text-align: center;
+	}
+	
+	h4 { 
+	text-align: center;
+	font-size: 12px;
+	color: silver;
+	}
+	
+
+  .box {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	overflow: hidden;
+	/*background-color: #ffffff;*/
+	/*background-color: #ded6bd;*/
+	background-color: #ffff09;
+	border: 1px solid #000000;
+}
+
+.box2 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	overflow: hidden;
+	/*background-color: #ded6bd;*/
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+
+#logo {
+	 margin: 0px;
+	 border: 0px;
+}
+
+ #navMenu {
+  	 float: left;
+	 margin: 0px;
+    margin-top:0px;
+    width: 900px;
+ 	 background: #a74735;
+ 	 
+	 font-weight: bold;
+ }
+
+  #navMenu ul {
+	margin: 0px;
+	padding: 0;
+	line-height: 25px;
+}
+
+  #navMenu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+	background: #a74735;
+	/*border-right: 1px groove White;*/
+}
+
+  #navMenu ul li a {
+    text-align: center;
+    margin-bottom:0px;
+    width:155px;
+    display:block;
+    text-decoration:none;
+    color:#FFF;
+    border:0px;
+    padding: 10px;
+    vertical-align: top;
+ }
+ 
+ #navMenuSub ul li a {
+    text-align: left;
+	 padding-left: 10px;
+    width:350px;
+    display:block;
+    text-decoration:none;
+    color:#FFF;
+    border:0px;
+     }
+
+ /*********************************************/
+ /* hide menu and allow it to return */
+ /*********************************************/
+
+#navMenu ul ul {
+   position: absolute;
+	visibility: hidden;
+	width: 600px;
+ }
+
+#navMenu ul li:hover ul {
+    visibility:visible;
+    z-index:0; 
+	 color:#FFF;
+ }
+
+  /**********************************************
+  ***********************************************
+
+/*This sets the hover (blue) colour#
+
+**************************************************
+****************************************************/
+
+
+
+#navMenu li:hover {
+ margin: 0px;
+    margin-top:0px;
+	 border: 0px;
+	 color:#FFF;
+	 text-decoration:underline;
+   /*background:#000033;*/
+	/*border-right: 1px groove White;*/
+}
+
+  /*sets link items hover color and background*/
+
+  #navMenu ul li:hover ul li a:hover {
+    color:#FFF;
+    background: Gray;
+ }
+
+  /* Changes text color on hover for main menu hover*/
+
+  #navMenu a:hover {   
+  color:#FFF;
+ } 
+ 
+ /* IE7 Display Fix */
+
+ #navMenu ul li { 
+
+  display: inline; 
+ 
+ }
+
+	input
+{
+color: Gray;
+background: #b5ef54;
+border: 1px solid black;
+font-weight: bold;
+}
+
+.content1 {
+	float: left;
+	width: 900px;
+	text-align: center;
+	/*background-color: #ded6bd;*/
+	background-color: #ffff09;
+	color: Black;
+	font-size: 14px;
+	min-height: 100%;
+}
+
+.content1 a {
+	color: #a74735;
+	text-decoration: none;
+}
+
+.content1 a:hover {
+	color: Red;
+	text-decoration: underline;
+}
+
+.content {
+	float: left;
+	width: 900px;
+	text-align: left;
+	/*background-color: #ded6bd;*/
+	background-color: #ffff09;
+	color: Black;
+	font-size: 14px;
+	min-height: 100%;
+}
+
+.content a {
+	color: #2b7b43;
+	text-decoration: none;
+}
+
+.content a:hover {
+	color: Red;
+	text-decoration: underline;
+}
+
+ .content li {
+ 	padding: 5px;
+	margin-left: 50px;
+ }
+
+	 
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 900px;
+	/*height: 150px;*/
+	padding: 20px;
+	font-size: 18px;
+	color: Black;
+	text-align: center;
+	background-color: #a74735;
+}
+
+.footer a {
+font-size: 14px;
+	color: White;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: White;
+   text-decoration: underline;
+    }  
+
+  
+   
